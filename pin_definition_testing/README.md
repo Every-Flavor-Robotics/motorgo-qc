@@ -9,9 +9,10 @@ Copy this checklist into the PR description for adding new board, do not merge u
 
 - [ ] Install the new board definitions
 - [ ] Run the main program in this repository to check I2C, LED, and servo pins
-- [ ] Run the example `spin_motors` sketch in the driver code to verify that motors and encoders work as expected
+- [ ] Run the example `spin_motors` example from the driver to verify that motors and encoders work as expected
 - [ ] Connect the Pihat compatible boards to a Pi and try communicating over SPI with the Pi
 - [ ] Confirm the voltage and current limits for the drivers is correct
+- [ ] Confirm that all motor driver pins are set low on boot
 
 ## Testing
 This codebase is written to work for all MotorGo boards, you simply have to change the board that it is compiled for. It will test:
